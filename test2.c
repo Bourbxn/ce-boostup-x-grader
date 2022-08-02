@@ -2,7 +2,9 @@
 #include "string.h"
 
 int main() {
-    unsigned long long int a,b;
-    scanf("%lld %lld",&a,&b);
-    printf("%lld",a+b);
+    int sum = 0;
+   for(int i = 66 ; i <= 5648 ; i +=2)
+    sum = sum + i;
+printf("%d",sum);
+
 }
